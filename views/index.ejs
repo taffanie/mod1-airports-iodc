@@ -1,5 +1,7 @@
-<% if (loggedIn) { %> You're logged in! Visit your
-    <a href="/profile">profile</a>
+<% if (loggedIn) { %> You're logged in! </br></br>
+    <li>Visit your <a href="/profile">profile</a></li>
+    <li>View all <a href="/airports">airports</a></li></br></br>
+    <a href="/logout">Logout</a>
     <% } else { %>
         <a href="/login">Login</a>
         <% } %>
