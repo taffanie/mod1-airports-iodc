@@ -1,0 +1,16 @@
+<h4>User</h4>
+<% if (user) { %>
+    <p>
+        Name: <%= user.given_name %>
+            <%= user.family_name %>
+    </p>
+    <p>
+        Username: <%= user.nickname %>
+    </p>
+    <p>
+        Photo: <%= user.picture %>
+    </p>
+    <p>
+        Email: <%= user.email %>
+    </p>
+    <% } %>
